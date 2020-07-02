@@ -47,4 +47,28 @@ nav ul li a:hover {
   background: #e0e2db;
   color: #e6af2e;
 }
+
+/* Start: Media Query */
+@media screen and (min-width: 576px) {
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  nav ul li {
+    flex: 1 0 auto;
+  }
+
+  .logo {
+    display: block;
+    text-align: center;
+  }
+
+  .logo .fa {
+    display: none;
+  }
+}
+/* End: Media Query */
 /* End: Nav */
