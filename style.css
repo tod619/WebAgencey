@@ -82,5 +82,21 @@ nav ul li a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #e0e2db;
+  font-style: italic;
+}
+
+.banner-underline {
+  width: 200px;
+  border-top: 3px solid #191716;
+  margin: 10px auto 20px auto;
 }
 /* End: Banner */
