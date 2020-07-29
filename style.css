@@ -144,4 +144,28 @@ nav ul li a:hover {
   max-width: 95vw;
   margin: 0 auto;
 }
+
+.skills-item {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.skills-item .fa {
+  font-size: 60px;
+  color: #191716;
+}
+
+.skills-item h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 30px 0;
+  color: #e6af2e;
+  text-transform: uppercase;
+}
+
+.skills-item p {
+  width: 75%;
+  margin: 0 auto;
+  color: #e0e2bd;
+}
 /* End: Skills */
