@@ -99,4 +99,37 @@ nav ul li a:hover {
   border-top: 3px solid #191716;
   margin: 10px auto 20px auto;
 }
+
+.banner-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-btn button {
+  font-size: 30px;
+  padding: 15px;
+  text-transform: uppercase;
+  margin: 0 10px;
+  background: transparent;
+  color: #e6af2e;
+  cursor: pointer;
+  border: 2px solid #e6af2e;
+  transition: all 0.5s ease-in;
+}
+
+.banner-btn button:focus {
+  outline: none;
+}
+
+.banner-btn button:hover {
+  color: #e0e2db;
+  background: #e6af2e;
+}
+
+/* Start: Media Query */
+@media screen and (min-width: 576px) {
+  #banner {
+    background-attachment: fixed;
+  }
+}
 /* End: Banner */
