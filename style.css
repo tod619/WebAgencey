@@ -252,6 +252,58 @@ nav ul li a:hover {
   color: #191716;
 }
 
+.front-text {
+  text-align: center;
+  transition: transform 2s ease-in;
+}
+
+.back-text {
+  /* position: absolute;
+  bottom: -15em; */
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+  transition: bottom 2s ease-in;
+  padding: 30px 0;
+}
+
+.back-text h1 {
+  margin-bottom: 20px;
+}
+
+.back-text button {
+  margin-top: 20px;
+  padding: 20px 20px;
+  background: transparent;
+  border: 2px solid #e6af2e;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #e6af2e;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+.back-text button:focus {
+  outline: none;
+}
+
+.back-text button:hover {
+  background-color: #e6af2e;
+  color: #191716;
+}
+
+.service-item-white button {
+  background-color: #e6af2e;
+  color: #191716;
+  transition: all 0.5s ease-in;
+}
+
+.service-item-white button:hover {
+  background-color: #191716;
+  border-color: #191716;
+  color: #beb7a4;
+}
+
 /* Start: Media Query */
 @media screen and (min-width: 576px) {
   #services {
