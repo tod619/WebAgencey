@@ -212,5 +212,21 @@ nav ul li a:hover {
 /* End: Skills */
 
 /* Start: Services */
+#services {
+  min-height: 100vh;
+  background: url(images/services.jpeg);
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0 80px 0;
+}
+
+/* Start: Media Query */
+@media screen and (min-width: 576px) {
+  #services {
+    background-attachment: fixed;
+  }
+}
 
 /* End: Services */
