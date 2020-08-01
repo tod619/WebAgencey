@@ -371,7 +371,7 @@ nav ul li a:hover {
   width: 100%;
   min-height: 100%;
   display: block;
-  transition: transform 4s ease-in;
+  transition: transform 2s ease-in;
 }
 
 .img-text {
@@ -381,12 +381,16 @@ nav ul li a:hover {
   transform: translate(-50%, -50%);
   text-align: center;
   opacity: 0;
-  transition: opacity 4s ease-in;
+  transition: opacity 2s ease-in;
 }
 
 .img-text h1 {
   font-size: 30px;
   margin-bottom: 10px;
+}
+
+.img-text h6 {
+  font-size: 15px;
 }
 
 .img-footer {
@@ -400,6 +404,20 @@ nav ul li a:hover {
   font-size: 20px;
   color: #e6af2e;
   opacity: 0;
-  transition: opacity 4s ease-in;
+  transition: opacity 2s ease-in;
+}
+
+/* Hover effects */
+.projects-item:hover img {
+  opacity: 0.4;
+  transform: scale(1.3);
+}
+
+.projects-item:hover .img-text {
+  opacity: 1;
+}
+
+.projects-item:hover .img-footer {
+  opacity: 1;
 }
 /* End: Projects */
