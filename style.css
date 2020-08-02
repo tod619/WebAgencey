@@ -482,3 +482,51 @@ nav ul li a:hover {
   color: #191716;
 }
 /* End: Filler */
+
+/* Start: Posts */
+#posts {
+  background: #beb7a4;
+  padding: 20px 0 80px 0;
+}
+
+.post-container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.post-item {
+  background-color: #e0e2bd;
+  color: #191716;
+  margin: 20px 0;
+}
+
+#posts img {
+  width: 100%;
+  display: block;
+  transition: opacity 0.5s ease-in;
+}
+
+.img-container {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+.img-container .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: #e6af2e;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.img-container:hover img {
+  opacity: 0.4;
+}
+
+.img-container:hover .fa {
+  opacity: 1;
+}
+/* End: Posts */
