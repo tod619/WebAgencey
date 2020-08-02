@@ -553,4 +553,20 @@ nav ul li a:hover {
   background-color: #e6af2e;
   color: #191716;
 }
+
+/* Start: Medai Query */
+@media screen and (min-width: 576px) {
+  .post-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .post-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* End: Media Query */
 /* End: Posts */
