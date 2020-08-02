@@ -570,3 +570,39 @@ nav ul li a:hover {
 }
 /* End: Media Query */
 /* End: Posts */
+
+/* Start: Footer */
+footer {
+  background-color: #191716;
+  color: #e0e2db;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.footer-icons {
+  font-size: 30px;
+}
+
+.footer-icons a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #e0e2bd;
+  transition: all 0.5s ease-in;
+}
+
+.footer-icons a:hover {
+  color: #e6af2e;
+}
+
+/* End: Footer */
