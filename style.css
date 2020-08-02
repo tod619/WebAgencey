@@ -529,4 +529,28 @@ nav ul li a:hover {
 .img-container:hover .fa {
   opacity: 1;
 }
+
+.text-container {
+  padding: 10px 5px 30px 5px;
+}
+
+.text-container p {
+  margin: 15px 0 25px 0;
+}
+
+.text-container a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  border: 2px solid #e6af2e;
+  border-radius: 5px;
+  color: #e6af2e;
+  margin-bottom: 20px;
+  transition: all 0.5s ease-in;
+}
+
+.text-container a:hover {
+  background-color: #e6af2e;
+  color: #191716;
+}
 /* End: Posts */
